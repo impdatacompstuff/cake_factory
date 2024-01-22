@@ -8,7 +8,7 @@ import javax.money.Monetary;
 import java.util.List;
 
 @Component
-public class InMemoryCatalog implements Catalog{
+public class InMemoryCatalog implements Catalog {
     CurrencyUnit pound = Monetary.getCurrency("GBP");
 
     List<Pastry> pastries = List.of(new Pastry("Sacher Cake",
