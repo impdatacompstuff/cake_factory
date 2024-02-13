@@ -1,8 +1,6 @@
 package com.cakefactory;
 
-import com.cakefactory.model.Catalog;
 import com.cakefactory.model.Category;
-import com.cakefactory.model.InMemoryCatalog;
 import com.cakefactory.model.Pastry;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.HtmlElement;

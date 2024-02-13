@@ -3,7 +3,11 @@ package com.cakefactory.model;
 import javax.validation.constraints.*;
 
 import javax.money.MonetaryAmount;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Currency;
+import java.util.HashMap;
+import java.util.HashSet;
 
 public class Pastry {
 
